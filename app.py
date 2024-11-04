@@ -1,1 +1,4 @@
-from deepface import DeepFace
+import numpy
+import cv2
+
+video_capture = cv2.VideoCapture(0)
